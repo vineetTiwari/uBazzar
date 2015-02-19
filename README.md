@@ -4,11 +4,14 @@
 
 * Rails version - 4.2.0
 
-* Other than the initial set, gems needed are:
+* Database SQlite
+
+* Other than the basic gems, this application has:
 
 ```shell
 gem 'bootstrap-sass'
 gem 'hirb'
 gem 'paperclip'
 ```
+* Also required are 'Imagemagick' & 'GhostScript'
 

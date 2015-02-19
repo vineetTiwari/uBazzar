@@ -5,6 +5,10 @@
   <%= @listing.name %>
 </p>
 
+<!-- <%#= image_tag @listing.image.url %> full-size image -->
+<%= image_tag @listing.image.url(:medium) %> 
+<%#= image_tag @listing.image.url(:thumb) %>
+
 <p>
   <strong>Description:</strong>
   <%= @listing.description %>
