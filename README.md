@@ -7,9 +7,8 @@
 * Other than the initial set, gems needed are:
 
 ```shell
-
 gem 'bootstrap-sass'
-
-
+gem 'hirb'
+gem 'paperclip'
 ```
 
