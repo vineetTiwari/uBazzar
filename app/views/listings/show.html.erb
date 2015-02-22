@@ -11,6 +11,7 @@
     <h3><%= @listing.name %></h3>
     <p><%= number_to_currency(@listing.price) %></p>
     <p><%= @listing.description %></p>
+    <p>Seller: <%= @listing.user.username %></p>
     <%= link_to 'Edit', edit_listing_path(@listing), class: 'btn btn-link' %> |
     <%= link_to 'Back', listings_path, class: 'btn btn-link' %>
   </div>

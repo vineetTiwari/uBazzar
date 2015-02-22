@@ -15,6 +15,8 @@ gem 'paperclip'
 gem 'paperclip-dropbox'
 gem 'figaro'
 gem 'devise'
+gem 'awesome_print'
+gem 'interactive_editor'
 
 
 group :production do
