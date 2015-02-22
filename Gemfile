@@ -12,6 +12,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'hirb'
 gem 'paperclip'
+gem 'paperclip-dropbox'
+gem 'figaro'
+gem 'devise'
+
 
 group :production do
   gem 'pg'

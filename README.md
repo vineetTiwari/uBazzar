@@ -12,6 +12,9 @@
 gem 'bootstrap-sass'
 gem 'hirb'
 gem 'paperclip'
+gem 'paperclip-dropbox'
+gem 'rails_12factor'
+gem 'pg'
 ```
 * Also required are 'Imagemagick' & 'GhostScript'
 
