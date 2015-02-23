@@ -4,7 +4,7 @@ class ListingsController < ApplicationController
   before_action :check_user, only: [:edit, :update, :destroy]
 
   def index
-    @listings = Listing.all
+    @listings = Listing.all.order('created_at DESC')
   end
 
   def show
@@ -64,7 +64,7 @@ class ListingsController < ApplicationController
 
     def check_user
       if current_user != @listing.user 
-        redirect_to root_path, alert: "Sorry, this listing does not belong to you"
+        redirect_to root_url, alert: "Sorry, this listing does not belong to you"
       end
     end
 end
