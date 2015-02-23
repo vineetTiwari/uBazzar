@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'https://rubygems.org'
 ruby '2.2.0'
 
 gem 'rails', '4.2.0'
@@ -18,6 +19,7 @@ gem 'devise'
 gem 'awesome_print'
 gem 'interactive_editor'
 gem 'font-awesome-rails'
+gem 'stripe'
 
 
 group :production do
