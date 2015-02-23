@@ -1,8 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
 
 body {
-  background-color: #F5F5F1;
+  background-color: #f7efde;
   color: #333333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +15,7 @@ body {
 .navbar-default .navbar-brand {
   font-family: guardian-egyptt, georgia, serif;
   font-weight: 400;
-  color: #d5641c;
+  color:#9f052a;
   font-size: 30px;
 }
 
@@ -22,7 +23,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #0192B5;
+  color: #019285;
 }
 
 .center {
@@ -64,4 +65,9 @@ body {
 
 .btn-primary:hover {
   color: white;
+}
+
+.thumbnail {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.65);
 }

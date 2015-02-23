@@ -17,6 +17,7 @@ gem 'figaro'
 gem 'devise'
 gem 'awesome_print'
 gem 'interactive_editor'
+gem 'font-awesome-rails'
 
 
 group :production do
