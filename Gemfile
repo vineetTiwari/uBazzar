@@ -20,6 +20,7 @@ gem 'awesome_print'
 gem 'interactive_editor'
 gem 'font-awesome-rails'
 gem 'stripe'
+gem 'aws-sdk'
 
 
 group :production do

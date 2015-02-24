@@ -3,6 +3,10 @@ class ListingsController < ApplicationController
   before_action :authenticate_user!, only: [:seller, :new, :create, :edit,:update, :destroy]
   before_action :check_user, only: [:edit, :update, :destroy]
 
+  def image_link(listing) 
+    link_to image_tag(listing.image.url), listing
+  end
+
   def seller
     @listings = Listing.where(user: current_user).order('created_at DESC')
   end

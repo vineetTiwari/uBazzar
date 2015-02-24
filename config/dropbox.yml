@@ -1,6 +1,6 @@
-app_key: "w05p2htxk3gp5hx"
-app_secret: "t5n22op3vnkko4j"
-access_token: "q0e3cx7zlv1dfu0v"
-access_token_secret: "9k3w840khkbse7p"
+app_key: "usbe2q8fm58skfm"
+app_secret: <%= ENV["APP_SECRET"] %>
+access_token: "c8o0mh84nnax4wg4"
+access_token_secret: <%= ENV["ACCESS_TOKEN_SECRET"] %>
 user_id: "93563049"
 access_type: "app_folder"
