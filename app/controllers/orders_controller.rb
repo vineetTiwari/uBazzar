@@ -42,7 +42,7 @@ class OrdersController < ApplicationController
     @order.buyer_id = current_user.id
     @order.seller_id = @seller.id
     if @order.save
-      redirect_to root_path
+      redirect_to root_path, notice: "Order was successfully created." 
     else
       render :new
     end
