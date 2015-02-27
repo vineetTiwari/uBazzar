@@ -9,6 +9,7 @@ class ListingsController < ApplicationController
 
   def index
     @listings = Listing.all.order('created_at DESC')
+    @categories = Category.all
   end
 
   def show

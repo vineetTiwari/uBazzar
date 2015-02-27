@@ -1,8 +1,12 @@
-<div class="jumbotron">
-  <h1>Everything is simple with uBazzar!</h1>
-</div>
 
 <div class= 'center'>
+  <div class="jumbotron">
+    <h1>Everything is simple with uBazzar!</h1>
+  </div>
+</div>
+
+
+<div class="row center">
   <div class= 'row'>
     <% @listings.each do |listing| %>
       <div class= 'col-md-3'>
@@ -17,8 +21,8 @@
       </div>      
     <% end %>
   </div>
+  <br>
+  <% if user_signed_in? %>
+    <%= link_to 'New Listing', new_listing_path, class: 'btn btn-link' %>
+  <% end %>
 </div>
-<br>
-<% if user_signed_in? %>
-  <%= link_to 'New Listing', new_listing_path, class: 'btn btn-link' %>
-<% end %>
